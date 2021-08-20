@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #31353E;
+}
+
+.wapper {
+    background-color: #EE923D;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.header {
+    background-color: #3E4651;
+    padding: 10px 0 10px 15px;
+    text-align: center;
+}
+
+.header h1 {
+    font: 70px Neucha, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #5bb8cc;
+    color: #FAF7F7;
+}
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+.content {
+    padding: 10px;
+    color: #3E4651;
+    margin: 0 auto
+}
+
+.content p {
+    font-size: 24px;
+    font-family: Neucha, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.content .form {
+    text-align: center;
+}
+.content .search {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Neucha, sans-serif;
+    font-weight: bold;
+    color: #3E4651;
+    background: transparent;
+    border: 3px solid #3E4651;
+    margin: 10px auto;
+}
+.content .submit {
+    display: block;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font: 24px/37px Neucha, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: transparent;
+    text-decoration: none;
+    border: 3px solid #3E4651;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #5bb8cc;
+}
+
+
+/* Footer  */
+
+.footer {
+    background-color: #3E4651;
+    padding: 5px;
+    text-align: center;
+    font: 12px Tahoma;
+    color: #D3D3D3;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.footer a:hover {
+    color: #F1F0F0;
+}
+
+.copy {
+    display: inline-block;
+    border-bottom: 1px dashed rgba(211, 211, 211, 0.4);
+    cursor: help;
+}
+
+ ::-webkit-input-placeholder {
+    color: #3E4651;
+}
+
+ ::-moz-placeholder {
+    color: #3E4651;
+}
+
+
+/* Firefox 19+ */
+
+ :-moz-placeholder {
+    color: #3E4651;
+}
+
+
+/* Firefox 18- */
+
+ :-ms-input-placeholder {
+    color: #3E4651;
+}
+
+ :focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+ :focus::-moz-placeholder {
+    color: transparent
+}
+
+ :focus:-moz-placeholder {
+    color: transparent
+}
+
+ :focus:-ms-input-placeholder {
+    color: transparent
+}
