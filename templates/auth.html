@@ -14,20 +14,15 @@
 			<h1><a href="/">Труньк ТВ</a></h1>
 		</div>
 		<div class="content">
-			{% if link%}
-				<div class="form">
-					<form name="my" action="/search/" method="post">
-						<input class="search" name="link" placeholder="Вставьте ссылку с kinopoisk.ru" required>
-						<input class="submit"  type="submit">
-					</form>
-				</div>
-			{% else %}
-				<div id="kinoplayertop" data-kinowidth="100%" data-kinopoisk="{{ id }}"></div>
-				<script src="//kinoplayer.top/top.js"></script>
-			{% endif %}
+			<div class="form">
+				<form name="my" action="/auth/" method="post">
+					<input class="search" name="wrd" placeholder="Ты знаешь, что должен написать" required>
+					<input class="submit"  type="submit">
+				</form>
+			</div>
 		</div>
 		<div class="footer">
-			<p class="copy">Возможно, без VPN работать не будет!</p>
+			<p class="copy">Онлайн кинотеатр</p>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
